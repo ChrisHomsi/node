@@ -10,6 +10,7 @@
 </tr>
 <tr>
 <td valign="top">
+<a href="#10.19.1">10.19.1</a><br/>
 <a href="#10.19.0">10.19.0</a><br/>
 <a href="#10.18.1">10.18.1</a><br/>
 <a href="#10.18.0">10.18.0</a><br/>
@@ -58,6 +59,28 @@
   * [0.10.x](CHANGELOG_V010.md)
   * [io.js](CHANGELOG_IOJS.md)
   * [Archive](CHANGELOG_ARCHIVE.md)
+
+<a id="10.19.1"></a>
+## 2020-03-??, Version 10.19.1 'Dubnium' (LTS), @BethGriggs
+
+### Notable changes
+
+- TBD
+
+### Commits
+
+* [[`9b2b66b7d8`](https://github.com/nodejs/node/commit/9b2b66b7d8)] - **deps**: V8: cherry-pick d89f4ef1cd62 (Milad Farazmand) [#31753](https://github.com/nodejs/node/pull/31753)
+* [[`7eac95981e`](https://github.com/nodejs/node/commit/7eac95981e)] - **deps**: upgrade npm to 6.13.7 (Michael Perrotte) [#31558](https://github.com/nodejs/node/pull/31558)
+* [[`db24641fbe`](https://github.com/nodejs/node/commit/db24641fbe)] - **deps**: upgrade npm to 6.13.6 (Ruy Adorno) [#31304](https://github.com/nodejs/node/pull/31304)
+* [[`f29fb14cf6`](https://github.com/nodejs/node/commit/f29fb14cf6)] - **(SEMVER-MINOR)** **n-api**: add APIs for per-instance state management (Gabriel Schulhof) [#28682](https://github.com/nodejs/node/pull/28682)
+* [[`20177b9946`](https://github.com/nodejs/node/commit/20177b9946)] - **n-api**: turn NAPI\_CALL\_INTO\_MODULE into a function (Anna Henningsen) [#26128](https://github.com/nodejs/node/pull/26128)
+* [[`3f9cec3f51`](https://github.com/nodejs/node/commit/3f9cec3f51)] - **test**: add debugging output to test-net-listen-after-destroy-stdin (Rich Trott) [#31698](https://github.com/nodejs/node/pull/31698)
+* [[`f1a8791316`](https://github.com/nodejs/node/commit/f1a8791316)] - **test**: allow EAI\_FAIL in test-http-dns-error.js (cjihrig) [#27500](https://github.com/nodejs/node/pull/27500)
+* [[`4b9a77909b`](https://github.com/nodejs/node/commit/4b9a77909b)] - **test**: mark tests as flaky (João Reis) [#30848](https://github.com/nodejs/node/pull/30848)
+* [[`a8fd8a1a61`](https://github.com/nodejs/node/commit/a8fd8a1a61)] - **test**: mark http2 tests as flaky on 10.x (AshCripps) [#31887](https://github.com/nodejs/node/pull/31887)
+* [[`2315270cb6`](https://github.com/nodejs/node/commit/2315270cb6)] - **test**: try to stabalize test-child-process-fork-exec-path.js (Refael Ackermann) [#27277](https://github.com/nodejs/node/pull/27277)
+* [[`1cfb45732a`](https://github.com/nodejs/node/commit/1cfb45732a)] - **(SEMVER-MINOR)** **tls**: support TLS min/max protocol defaults in CLI (Sam Roberts) [#27946](https://github.com/nodejs/node/pull/27946)
+* [[`dc61e09feb`](https://github.com/nodejs/node/commit/dc61e09feb)] - **v8**: fix load elimination liveness checks (Ben Noordhuis) [#31613](https://github.com/nodejs/node/pull/31613)
 
 <a id="10.19.0"></a>
 ## 2020-02-06, Version 10.19.0 'Dubnium' (LTS), @BethGriggs
